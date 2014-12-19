@@ -51,6 +51,17 @@
     <xwiki.clirr.skip>true</xwiki.clirr.skip>
   </properties>
   <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <!-- Fix the release plugin version since because versions < 2.5 of this plugin have a bug
+               when using Git 1.9+ which leads to not resolving properly SNAPSHOT versions when tagging. -->
+          <version>2.5.1</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
     <!-- Needed to add support for the XAR packaging -->
     <extensions>
       <extension>
