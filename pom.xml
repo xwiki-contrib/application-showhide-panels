@@ -29,7 +29,7 @@
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>application-showhide-panels</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <name>Show Hide Panels Application</name>
   <packaging>xar</packaging>
   <description>Allows to dynamically hide and show the left and the right panel columns</description>
@@ -37,7 +37,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/application-showhide-panels.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/application-showhide-panels.git</developerConnection>
     <url>https://github.com/xwiki-contrib/application-showhide-panels</url>
-    <tag>application-showhide-panels-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <developers>
    <developer>
